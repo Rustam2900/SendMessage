@@ -4,9 +4,9 @@ from aiogram import Bot, Dispatcher
 from asgiref.sync import sync_to_async
 from django.core.management import BaseCommand
 
-from bot.headers import router
-from bot.management.commands.commands import commands
-from account.models import CustomUser
+from message.headers import router
+from message.management.commands.commands import commands
+from message.models import CustomUser
 
 logging.basicConfig(
     level=logging.INFO,
@@ -50,7 +50,7 @@ async def main():
     print("Starting bot...")
     logging.basicConfig(level=logging.INFO)
 
-    from bot.headers.handlers import bot
+    from message.headers.handlers import bot
     dp = Dispatcher()
     await bot.set_my_commands(commands=commands)
     logger.info("Buyruqlar o'rnatildi.")
