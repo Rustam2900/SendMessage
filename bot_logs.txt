@@ -11,3 +11,288 @@
 2025-02-24 18:23:26,038 - aiogram.event - INFO - Update id=706187782 is handled. Duration 187 ms by bot id=8139825196
 2025-02-24 18:23:27,376 - aiogram.event - INFO - Update id=706187783 is handled. Duration 233 ms by bot id=8139825196
 2025-02-24 18:40:47,222 - aiogram.event - INFO - Update id=706187784 is handled. Duration 733 ms by bot id=8139825196
+2025-02-24 19:08:52,505 - aiogram.event - INFO - Update id=706187785 is handled. Duration 750 ms by bot id=8139825196
+2025-02-24 19:09:15,489 - aiogram.event - INFO - Update id=706187786 is handled. Duration 375 ms by bot id=8139825196
+2025-02-24 19:09:16,875 - aiogram.event - INFO - Update id=706187787 is handled. Duration 264 ms by bot id=8139825196
+2025-02-24 19:09:17,750 - aiogram.event - INFO - Update id=706187788 is handled. Duration 156 ms by bot id=8139825196
+2025-02-24 19:09:18,657 - aiogram.event - INFO - Update id=706187789 is handled. Duration 187 ms by bot id=8139825196
+2025-02-24 19:09:19,463 - aiogram.event - INFO - Update id=706187790 is handled. Duration 202 ms by bot id=8139825196
+2025-02-24 19:09:20,282 - aiogram.event - INFO - Update id=706187791 is handled. Duration 233 ms by bot id=8139825196
+2025-02-24 19:09:21,093 - aiogram.event - INFO - Update id=706187792 is handled. Duration 171 ms by bot id=8139825196
+2025-02-24 19:18:15,680 - aiogram.dispatcher - INFO - Polling stopped
+2025-02-24 19:18:15,706 - root - INFO - Hamma foydalanuvchilarga bot ishdan to'xtagani haqida xabar yuborildi.
+2025-02-24 19:18:15,994 - aiogram.dispatcher - INFO - Polling stopped for bot @SendMessage7Bot id=8139825196 - 'SendMessage'
+2025-02-24 19:18:22,201 - message.management.commands.run_bot - INFO - Buyruqlar o'rnatildi.
+2025-02-24 19:18:22,202 - message.management.commands.run_bot - INFO - Router ulandi.
+2025-02-24 19:18:22,402 - root - INFO - Hamma foydalanuvchilarga bot ishga tushgani haqida xabar yuborildi.
+2025-02-24 19:18:22,402 - aiogram.dispatcher - INFO - Start polling
+2025-02-24 19:18:22,508 - aiogram.dispatcher - INFO - Run polling for bot @SendMessage7Bot id=8139825196 - 'SendMessage'
+2025-02-24 19:18:35,545 - aiogram.event - INFO - Update id=706187793 is handled. Duration 531 ms by bot id=8139825196
+2025-02-24 19:18:47,883 - aiogram.event - INFO - Update id=706187794 is handled. Duration 172 ms by bot id=8139825196
+2025-02-24 19:19:53,391 - aiogram.dispatcher - INFO - Polling stopped
+2025-02-24 19:19:53,791 - root - INFO - Hamma foydalanuvchilarga bot ishdan to'xtagani haqida xabar yuborildi.
+2025-02-24 19:19:54,056 - aiogram.dispatcher - INFO - Polling stopped for bot @SendMessage7Bot id=8139825196 - 'SendMessage'
+2025-02-24 19:19:58,962 - message.management.commands.run_bot - INFO - Buyruqlar o'rnatildi.
+2025-02-24 19:19:58,963 - message.management.commands.run_bot - INFO - Router ulandi.
+2025-02-24 19:19:59,289 - root - INFO - Hamma foydalanuvchilarga bot ishga tushgani haqida xabar yuborildi.
+2025-02-24 19:19:59,289 - aiogram.dispatcher - INFO - Start polling
+2025-02-24 19:19:59,399 - aiogram.dispatcher - INFO - Run polling for bot @SendMessage7Bot id=8139825196 - 'SendMessage'
+2025-02-24 19:20:03,627 - aiogram.event - INFO - Update id=706187795 is handled. Duration 608 ms by bot id=8139825196
+2025-02-24 19:20:19,587 - aiogram.event - INFO - Update id=706187796 is handled. Duration 405 ms by bot id=8139825196
+2025-02-24 19:22:14,668 - aiogram.event - INFO - Update id=706187797 is handled. Duration 389 ms by bot id=8139825196
+2025-02-24 19:25:37,499 - aiogram.dispatcher - INFO - Polling stopped
+2025-02-24 19:25:38,179 - root - INFO - Hamma foydalanuvchilarga bot ishdan to'xtagani haqida xabar yuborildi.
+2025-02-24 19:25:38,436 - aiogram.dispatcher - INFO - Polling stopped for bot @SendMessage7Bot id=8139825196 - 'SendMessage'
+2025-02-24 19:25:44,960 - message.management.commands.run_bot - INFO - Buyruqlar o'rnatildi.
+2025-02-24 19:25:44,961 - message.management.commands.run_bot - INFO - Router ulandi.
+2025-02-24 19:25:45,417 - root - INFO - Hamma foydalanuvchilarga bot ishga tushgani haqida xabar yuborildi.
+2025-02-24 19:25:45,418 - aiogram.dispatcher - INFO - Start polling
+2025-02-24 19:25:45,540 - aiogram.dispatcher - INFO - Run polling for bot @SendMessage7Bot id=8139825196 - 'SendMessage'
+2025-02-24 19:25:52,057 - aiogram.event - INFO - Update id=706187798 is handled. Duration 453 ms by bot id=8139825196
+2025-02-24 19:26:03,041 - aiogram.event - INFO - Update id=706187799 is handled. Duration 203 ms by bot id=8139825196
+2025-02-24 19:26:30,686 - aiogram.event - INFO - Update id=706187800 is handled. Duration 516 ms by bot id=8139825196
+2025-02-24 19:26:48,549 - aiogram.event - INFO - Update id=706187801 is handled. Duration 359 ms by bot id=8139825196
+2025-02-24 19:27:16,607 - aiogram.event - INFO - Update id=706187802 is handled. Duration 375 ms by bot id=8139825196
+2025-02-24 19:29:11,760 - aiogram.event - INFO - Update id=706187803 is handled. Duration 389 ms by bot id=8139825196
+2025-02-24 19:29:17,302 - aiogram.dispatcher - INFO - Polling stopped
+2025-02-24 19:29:17,570 - root - INFO - Hamma foydalanuvchilarga bot ishdan to'xtagani haqida xabar yuborildi.
+2025-02-24 19:29:17,829 - aiogram.dispatcher - INFO - Polling stopped for bot @SendMessage7Bot id=8139825196 - 'SendMessage'
+2025-02-24 19:29:22,827 - message.management.commands.run_bot - INFO - Buyruqlar o'rnatildi.
+2025-02-24 19:29:22,828 - message.management.commands.run_bot - INFO - Router ulandi.
+2025-02-24 19:29:23,067 - root - INFO - Hamma foydalanuvchilarga bot ishga tushgani haqida xabar yuborildi.
+2025-02-24 19:29:23,068 - aiogram.dispatcher - INFO - Start polling
+2025-02-24 19:29:23,176 - aiogram.dispatcher - INFO - Run polling for bot @SendMessage7Bot id=8139825196 - 'SendMessage'
+2025-02-24 19:29:26,095 - aiogram.event - INFO - Update id=706187804 is handled. Duration 406 ms by bot id=8139825196
+2025-02-24 19:38:14,969 - aiogram.dispatcher - INFO - Polling stopped
+2025-02-24 19:38:15,667 - root - INFO - Hamma foydalanuvchilarga bot ishdan to'xtagani haqida xabar yuborildi.
+2025-02-24 19:38:15,932 - aiogram.dispatcher - INFO - Polling stopped for bot @SendMessage7Bot id=8139825196 - 'SendMessage'
+2025-02-24 19:38:21,593 - message.management.commands.run_bot - INFO - Buyruqlar o'rnatildi.
+2025-02-24 19:38:21,594 - message.management.commands.run_bot - INFO - Router ulandi.
+2025-02-24 19:38:21,870 - root - INFO - Hamma foydalanuvchilarga bot ishga tushgani haqida xabar yuborildi.
+2025-02-24 19:38:21,872 - aiogram.dispatcher - INFO - Start polling
+2025-02-24 19:38:21,976 - aiogram.dispatcher - INFO - Run polling for bot @SendMessage7Bot id=8139825196 - 'SendMessage'
+2025-02-24 19:38:26,295 - aiogram.event - INFO - Update id=706187805 is handled. Duration 343 ms by bot id=8139825196
+2025-02-24 19:38:27,741 - aiogram.event - INFO - Update id=706187806 is handled. Duration 157 ms by bot id=8139825196
+2025-02-24 19:39:21,547 - aiogram.event - INFO - Update id=706187807 is handled. Duration 453 ms by bot id=8139825196
+2025-02-24 19:40:13,616 - aiogram.event - INFO - Update id=706187808 is handled. Duration 500 ms by bot id=8139825196
+2025-02-24 19:40:16,300 - aiogram.event - INFO - Update id=706187809 is not handled. Duration 0 ms by bot id=8139825196
+2025-02-24 19:40:16,301 - aiogram.event - ERROR - Cause exception while process update id=706187809 by bot id=8139825196
+TypeError: object QuerySet can't be used in 'await' expression
+Traceback (most recent call last):
+  File "C:\Users\user\Desktop\SendMessage\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\SendMessage\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\SendMessage\venv\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\SendMessage\venv\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 27, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\SendMessage\venv\Lib\site-packages\aiogram\fsm\middleware.py", line 41, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\SendMessage\venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\SendMessage\venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\SendMessage\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\SendMessage\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 128, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\SendMessage\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 123, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\SendMessage\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 156, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\SendMessage\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 128, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\SendMessage\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 123, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\SendMessage\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 156, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\SendMessage\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 128, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\SendMessage\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 123, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\SendMessage\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 148, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\SendMessage\venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\SendMessage\venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\SendMessage\message\headers\handlers.py", line 87, in show_admin_list
+    admins = await BotAdmin.objects.all()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: object QuerySet can't be used in 'await' expression
+2025-02-24 19:42:12,654 - aiogram.dispatcher - INFO - Polling stopped
+2025-02-24 19:42:13,135 - root - ERROR - Xabarni yuborishda xatolik yuz berdi: Telegram server says - Bad Request: chat not found
+2025-02-24 19:42:13,136 - root - INFO - Hamma foydalanuvchilarga bot ishdan to'xtagani haqida xabar yuborildi.
+2025-02-24 19:42:13,387 - aiogram.dispatcher - INFO - Polling stopped for bot @SendMessage7Bot id=8139825196 - 'SendMessage'
+2025-02-24 19:42:18,791 - message.management.commands.run_bot - INFO - Buyruqlar o'rnatildi.
+2025-02-24 19:42:18,791 - message.management.commands.run_bot - INFO - Router ulandi.
+2025-02-24 19:42:19,148 - root - ERROR - Xabarni yuborishda xatolik yuz berdi: Telegram server says - Bad Request: chat not found
+2025-02-24 19:42:19,149 - root - INFO - Hamma foydalanuvchilarga bot ishga tushgani haqida xabar yuborildi.
+2025-02-24 19:42:19,149 - aiogram.dispatcher - INFO - Start polling
+2025-02-24 19:42:19,255 - aiogram.dispatcher - INFO - Run polling for bot @SendMessage7Bot id=8139825196 - 'SendMessage'
+2025-02-24 19:42:20,858 - aiogram.event - INFO - Update id=706187810 is handled. Duration 358 ms by bot id=8139825196
+2025-02-24 19:42:22,852 - aiogram.event - INFO - Update id=706187811 is not handled. Duration 0 ms by bot id=8139825196
+2025-02-24 19:42:22,853 - aiogram.event - ERROR - Cause exception while process update id=706187811 by bot id=8139825196
+AttributeError: 'Manager' object has no attribute 'aall'
+Traceback (most recent call last):
+  File "C:\Users\user\Desktop\SendMessage\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\SendMessage\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\SendMessage\venv\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\SendMessage\venv\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 27, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\SendMessage\venv\Lib\site-packages\aiogram\fsm\middleware.py", line 41, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\SendMessage\venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\SendMessage\venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\SendMessage\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\SendMessage\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 128, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\SendMessage\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 123, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\SendMessage\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 156, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\SendMessage\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 128, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\SendMessage\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 123, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\SendMessage\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 156, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\SendMessage\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 128, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\SendMessage\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 123, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\SendMessage\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 148, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\SendMessage\venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\SendMessage\venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\SendMessage\message\headers\handlers.py", line 87, in show_admin_list
+    admins = await BotAdmin.objects.aall()  # TO‘G‘RI USUL
+                   ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Manager' object has no attribute 'aall'
+2025-02-24 19:52:04,347 - aiogram.dispatcher - INFO - Polling stopped
+2025-02-24 19:52:05,234 - root - ERROR - Xabarni yuborishda xatolik yuz berdi: Telegram server says - Bad Request: chat not found
+2025-02-24 19:52:05,235 - root - INFO - Hamma foydalanuvchilarga bot ishdan to'xtagani haqida xabar yuborildi.
+2025-02-24 19:52:05,503 - aiogram.dispatcher - INFO - Polling stopped for bot @SendMessage7Bot id=8139825196 - 'SendMessage'
+2025-02-24 19:52:11,263 - message.management.commands.run_bot - INFO - Buyruqlar o'rnatildi.
+2025-02-24 19:52:11,264 - message.management.commands.run_bot - INFO - Router ulandi.
+2025-02-24 19:52:11,651 - root - ERROR - Xabarni yuborishda xatolik yuz berdi: Telegram server says - Bad Request: chat not found
+2025-02-24 19:52:11,652 - root - INFO - Hamma foydalanuvchilarga bot ishga tushgani haqida xabar yuborildi.
+2025-02-24 19:52:11,652 - aiogram.dispatcher - INFO - Start polling
+2025-02-24 19:52:11,774 - aiogram.dispatcher - INFO - Run polling for bot @SendMessage7Bot id=8139825196 - 'SendMessage'
+2025-02-24 19:52:15,431 - aiogram.event - INFO - Update id=706187812 is handled. Duration 406 ms by bot id=8139825196
+2025-02-24 19:52:17,141 - aiogram.event - INFO - Update id=706187813 is not handled. Duration 16 ms by bot id=8139825196
+2025-02-24 19:52:17,142 - aiogram.event - ERROR - Cause exception while process update id=706187813 by bot id=8139825196
+TypeError: object QuerySet can't be used in 'await' expression
+Traceback (most recent call last):
+  File "C:\Users\user\Desktop\SendMessage\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\SendMessage\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\SendMessage\venv\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\SendMessage\venv\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 27, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\SendMessage\venv\Lib\site-packages\aiogram\fsm\middleware.py", line 41, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\SendMessage\venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\SendMessage\venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\SendMessage\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\SendMessage\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 128, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\SendMessage\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 123, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\SendMessage\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 156, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\SendMessage\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 128, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\SendMessage\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 123, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\SendMessage\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 156, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\SendMessage\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 128, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\SendMessage\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 123, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\SendMessage\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 148, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\SendMessage\venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\SendMessage\venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\SendMessage\message\headers\handlers.py", line 87, in show_admin_list
+    admins = await BotAdmin.objects.all()  # TO‘G‘RI USUL
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: object QuerySet can't be used in 'await' expression
+2025-02-24 19:53:02,351 - aiogram.dispatcher - INFO - Polling stopped
+2025-02-24 19:53:02,900 - root - ERROR - Xabarni yuborishda xatolik yuz berdi: Telegram server says - Bad Request: chat not found
+2025-02-24 19:53:02,901 - root - INFO - Hamma foydalanuvchilarga bot ishdan to'xtagani haqida xabar yuborildi.
+2025-02-24 19:53:03,162 - aiogram.dispatcher - INFO - Polling stopped for bot @SendMessage7Bot id=8139825196 - 'SendMessage'

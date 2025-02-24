@@ -4,8 +4,8 @@ from message.models import BotAdmin, Channel, Post
 
 @admin.register(BotAdmin)
 class BotAdminAdmin(admin.ModelAdmin):
-    list_display = ('telegram_id', 'username', 'full_name', 'tg_username')
-    search_fields = ('username', 'tg_username', 'telegram_id')
+    list_display = ('id', 'telegram_id', 'username', 'full_name', 'tg_username')
+    search_fields = ('id', 'username', 'tg_username', 'telegram_id')
 
 
 @admin.register(Channel)
