@@ -10,3 +10,4 @@
 2025-02-24 18:23:21,915 - aiogram.event - INFO - Update id=706187781 is handled. Duration 125 ms by bot id=8139825196
 2025-02-24 18:23:26,038 - aiogram.event - INFO - Update id=706187782 is handled. Duration 187 ms by bot id=8139825196
 2025-02-24 18:23:27,376 - aiogram.event - INFO - Update id=706187783 is handled. Duration 233 ms by bot id=8139825196
+2025-02-24 18:40:47,222 - aiogram.event - INFO - Update id=706187784 is handled. Duration 733 ms by bot id=8139825196
