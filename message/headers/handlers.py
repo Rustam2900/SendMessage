@@ -17,7 +17,7 @@ from message.models import BotAdmin, Channel, Post
 from django.conf import settings
 from aiogram.client.default import DefaultBotProperties
 
-from message.states import AdminState
+from message.states import AdminState, AdminStateChannel
 
 router = Router()
 bot = Bot(token=settings.BOT_TOKEN, default=DefaultBotProperties(parse_mode=ParseMode.HTML))
@@ -111,3 +111,57 @@ async def delete_admin(callback: CallbackQuery):
         await callback.answer("Admin o‘chirildi!", show_alert=True)
     else:
         await callback.answer("❗ Bu admin topilmadi.", show_alert=True)
+
+
+@router.message(lambda message: message.text == "kanal ➕")
+async def ask_for_admin_id(message: Message, state: FSMContext):
+    await state.set_state(AdminStateChannel.channel_for_admin_id)
+    await message.answer("🆔 Yangi kanal Telegram ID sini yuboring:")
+
+
+@router.message(AdminStateChannel.channel_for_admin_id)
+async def add_admin(message: Message, state: FSMContext):
+    try:
+        new_admin_id = int(message.text)
+        existing_admin = await Channel.objects.filter(channel_id=new_admin_id).afirst()
+
+        if existing_admin:
+            await message.answer("❗ Bu kanal allaqachon admin!")
+        else:
+            await Channel.objects.acreate(channel_id=new_admin_id)
+            await message.answer(f"✅ kanall (ID: {new_admin_id})  qo‘shildi!")
+
+        await state.clear()
+    except ValueError:
+        await message.answer("❌ Iltimos, faqat raqam yuboring!")
+
+
+@router.message(lambda message: message.text == "kanal ➖")
+async def show_admin_list(message: Message):
+    admins = list(await sync_to_async(list)(Channel.objects.all()))
+
+    if not admins:
+        await message.answer("❗ Hech qanday kanall mavjud emas.")
+        return
+
+    keyboard = InlineKeyboardBuilder()
+
+    for admin in admins:
+        button_text = f"{admin.name or 'Noma‘lum'} ({admin.channel_id})"
+        keyboard.button(text=button_text, callback_data=f"del_channel:{admin.channel_id}")
+
+    keyboard.adjust(1)
+    await message.answer("🛑 O‘chirmoqchi bo‘lgan kanall tanlang:", reply_markup=keyboard.as_markup())
+
+
+@router.callback_query(lambda c: c.data.startswith("del_channel:"))
+async def delete_admin(callback: CallbackQuery):
+    admin_id = int(callback.data.split(":")[1])
+    admin = await Channel.objects.filter(channel_id=admin_id).afirst()
+
+    if admin:
+        await admin.adelete()
+        await callback.message.answer(f"❌ {admin.name or 'Kanall'} (ID: {admin.channel_id}) o‘chirildi!")
+        await callback.answer("Kanall o‘chirildi!", show_alert=True)
+    else:
+        await callback.answer("❗ Bu Kanall topilmadi.", show_alert=True)

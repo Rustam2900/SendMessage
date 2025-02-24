@@ -10,8 +10,8 @@ class BotAdminAdmin(admin.ModelAdmin):
 
 @admin.register(Channel)
 class ChannelAdmin(admin.ModelAdmin):
-    list_display = ('name', 'channel_id', 'active')
-    search_fields = ('name', 'channel_id')
+    list_display = ('id', 'name', 'channel_id', 'active')
+    search_fields = ('id', 'name', 'channel_id')
     list_filter = ('active',)
 
 

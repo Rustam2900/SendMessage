@@ -7,9 +7,13 @@ def get_main_menu():
             KeyboardButton(text="admin ➕"),
             KeyboardButton(text="admin ➖")
         ],
+
         [
             KeyboardButton(text="kanal ➕"),
             KeyboardButton(text="kanal ➖")
+        ],
+        [
+            KeyboardButton(text="Post ✉️"),
         ]
 
     ], resize_keyboard=True)
