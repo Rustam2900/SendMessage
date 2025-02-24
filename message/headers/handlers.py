@@ -1,15 +1,12 @@
 import logging
 
-from aiogram import Bot, Router, F
+from aiogram import Bot, Router
 from aiogram.enums import ParseMode
-from aiogram.exceptions import TelegramBadRequest
 from aiogram.filters import CommandStart
 from aiogram.fsm.context import FSMContext
-from aiogram.types import Message, CallbackQuery, InlineKeyboardMarkup, InlineKeyboardButton
+from aiogram.types import Message, CallbackQuery
 from aiogram.utils.keyboard import InlineKeyboardBuilder
 from asgiref.sync import sync_to_async
-from django.db import transaction
-from django.utils import timezone
 
 from message.keyboards import get_main_menu
 from message.models import BotAdmin, Channel, Post
@@ -21,8 +18,6 @@ from message.states import AdminState, AdminStateChannel
 
 router = Router()
 bot = Bot(token=settings.BOT_TOKEN, default=DefaultBotProperties(parse_mode=ParseMode.HTML))
-CHANNEL_ID = -1002304690046
-ADMIN_ID = 5189183957
 logger = logging.getLogger(__name__)
 
 
