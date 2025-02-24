@@ -296,3 +296,17 @@ TypeError: object QuerySet can't be used in 'await' expression
 2025-02-24 19:53:02,900 - root - ERROR - Xabarni yuborishda xatolik yuz berdi: Telegram server says - Bad Request: chat not found
 2025-02-24 19:53:02,901 - root - INFO - Hamma foydalanuvchilarga bot ishdan to'xtagani haqida xabar yuborildi.
 2025-02-24 19:53:03,162 - aiogram.dispatcher - INFO - Polling stopped for bot @SendMessage7Bot id=8139825196 - 'SendMessage'
+2025-02-24 19:53:07,561 - message.management.commands.run_bot - INFO - Buyruqlar o'rnatildi.
+2025-02-24 19:53:07,562 - message.management.commands.run_bot - INFO - Router ulandi.
+2025-02-24 19:53:07,959 - root - ERROR - Xabarni yuborishda xatolik yuz berdi: Telegram server says - Bad Request: chat not found
+2025-02-24 19:53:07,960 - root - INFO - Hamma foydalanuvchilarga bot ishga tushgani haqida xabar yuborildi.
+2025-02-24 19:53:07,960 - aiogram.dispatcher - INFO - Start polling
+2025-02-24 19:53:08,080 - aiogram.dispatcher - INFO - Run polling for bot @SendMessage7Bot id=8139825196 - 'SendMessage'
+2025-02-24 19:53:12,174 - aiogram.event - INFO - Update id=706187814 is handled. Duration 453 ms by bot id=8139825196
+2025-02-24 19:53:13,908 - aiogram.event - INFO - Update id=706187815 is handled. Duration 187 ms by bot id=8139825196
+2025-02-24 19:53:18,187 - aiogram.event - INFO - Update id=706187816 is handled. Duration 312 ms by bot id=8139825196
+2025-02-24 19:53:25,443 - aiogram.event - INFO - Update id=706187817 is handled. Duration 187 ms by bot id=8139825196
+2025-02-24 19:53:32,246 - aiogram.event - INFO - Update id=706187818 is handled. Duration 187 ms by bot id=8139825196
+2025-02-24 19:53:37,252 - aiogram.event - INFO - Update id=706187819 is handled. Duration 202 ms by bot id=8139825196
+2025-02-24 19:53:40,644 - aiogram.event - INFO - Update id=706187820 is handled. Duration 156 ms by bot id=8139825196
+2025-02-24 19:53:44,658 - aiogram.event - INFO - Update id=706187821 is handled. Duration 421 ms by bot id=8139825196
