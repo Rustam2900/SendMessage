@@ -4,7 +4,7 @@ from aiogram import Bot, Router
 from aiogram.enums import ParseMode
 from aiogram.filters import CommandStart
 from aiogram.fsm.context import FSMContext
-from aiogram.types import Message, CallbackQuery
+from aiogram.types import Message, CallbackQuery, KeyboardButton, ReplyKeyboardMarkup
 from aiogram.utils.keyboard import InlineKeyboardBuilder
 from asgiref.sync import sync_to_async
 
@@ -14,7 +14,7 @@ from message.models import BotAdmin, Channel, Post
 from django.conf import settings
 from aiogram.client.default import DefaultBotProperties
 
-from message.states import AdminState, AdminStateChannel
+from message.states import AdminState, AdminStateChannel, PostState
 
 router = Router()
 bot = Bot(token=settings.BOT_TOKEN, default=DefaultBotProperties(parse_mode=ParseMode.HTML))
@@ -160,3 +160,122 @@ async def delete_admin(callback: CallbackQuery):
         await callback.answer("Kanall o‘chirildi!", show_alert=True)
     else:
         await callback.answer("❗ Bu Kanall topilmadi.", show_alert=True)
+
+
+skip_button = KeyboardButton(text="O‘tkazib yuborish")
+skip_keyboard = ReplyKeyboardMarkup(keyboard=[[skip_button]], resize_keyboard=True)
+
+
+@router.message(lambda message: message.text == "Post ✉️")
+async def start_post(message: Message, state: FSMContext):
+    await state.set_state(PostState.title)
+    await message.answer("Post sarlavhasini kiriting yoki o'tkazib yuboring:", reply_markup=skip_keyboard)
+
+
+# Title olish
+@router.message(PostState.title)
+async def get_title(message: Message, state: FSMContext):
+    if message.text != "O‘tkazib yuborish":
+        await state.update_data(title=message.text)
+    await state.set_state(PostState.message)
+    await message.answer("Post matnini kiriting:")
+
+
+# Message olish
+@router.message(PostState.message)
+async def get_message(message: Message, state: FSMContext):
+    await state.update_data(message=message.text)
+    await state.set_state(PostState.video_url)
+    await message.answer("Video URL kiriting yoki o'tkazib yuboring:", reply_markup=skip_keyboard)
+
+
+# Video URL olish
+@router.message(PostState.video_url)
+async def get_video_url(message: Message, state: FSMContext):
+    if message.text != "O‘tkazib yuborish":
+        await state.update_data(video_url=message.text)
+    await state.set_state(PostState.image_url)
+    await message.answer("Rasm URL kiriting yoki o'tkazib yuboring:", reply_markup=skip_keyboard)
+
+
+# Image URL olish
+@router.message(PostState.image_url)
+async def get_image_url(message: Message, state: FSMContext):
+    if message.text != "O‘tkazib yuborish":
+        await state.update_data(image_url=message.text)
+
+    data = await state.get_data()
+    title = data.get("title", "Yo‘q")
+    message_text = data.get("message", "Yo‘q")
+    video_url = data.get("video_url", "Yo‘q")
+    image_url = data.get("image_url", "Yo‘q")
+
+    post_preview = f"📢 *Post preview:*\n\n"
+    post_preview += f"📌 *Title:* {title}\n"
+    post_preview += f"📝 *Message:* {message_text}\n"
+    post_preview += f"🎥 *Video:* {video_url}\n"
+    post_preview += f"🖼 *Image:* {image_url}\n\n"
+    post_preview += "Kanallarga yuborishni xohlaysizmi?"
+
+    confirm_keyboard = ReplyKeyboardMarkup(
+        keyboard=[
+            [KeyboardButton(text="Ha, yuborish"), KeyboardButton(text="Bekor qilish")]
+        ], resize_keyboard=True
+    )
+
+    await state.set_state(PostState.confirm)
+    await message.answer(post_preview, parse_mode="Markdown", reply_markup=confirm_keyboard)
+
+
+# Tasdiqlash va postni yuborish
+@router.message(PostState.confirm)
+async def confirm_post(message: Message, state: FSMContext):
+    if message.text == "Ha, yuborish":
+        data = await state.get_data()
+        title = data.get("title", "")
+        message_text = data.get("message", "")
+        video_url = data.get("video_url", "")
+        image_url = data.get("image_url", "")
+
+        # Django ORM orqali post yaratish
+        post = await sync_to_async(Post.objects.create)(
+            title=title,
+            message=message_text,
+            video_url=video_url,
+            image_url=image_url
+        )
+
+        # Faol kanallarni bazadan olish
+        active_channels = await sync_to_async(list)(Channel.objects.filter(active=True))
+
+        # Xabarni har bir kanalga yuborish
+        for channel in active_channels:
+            try:
+                if video_url:
+                    await bot.send_video(
+                        chat_id=channel.channel_id,
+                        video=video_url,
+                        caption=message_text
+                    )
+                elif image_url:
+                    await bot.send_photo(
+                        chat_id=channel.channel_id,
+                        photo=image_url,
+                        caption=message_text
+                    )
+                else:
+                    await bot.send_message(
+                        chat_id=channel.channel_id,
+                        text=message_text
+                    )
+
+                # Post qaysi kanallarga yuborilganini bazaga saqlash
+                await sync_to_async(post.channels_sent.add)(channel)
+                post.sent_count += 1
+                await sync_to_async(post.save)()
+            except Exception as e:
+                print(f"Xatolik: {e}")
+
+        main_menu_markup = get_main_menu()
+        await message.answer("Post muvaffaqiyatli saqlandi va kanallarga yuborildi!", reply_markup=main_menu_markup)
+        await state.clear()
