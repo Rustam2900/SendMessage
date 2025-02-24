@@ -1,0 +1,12 @@
+2025-02-24 18:22:27,116 - message.management.commands.run_bot - INFO - Buyruqlar o'rnatildi.
+2025-02-24 18:22:27,117 - message.management.commands.run_bot - INFO - Router ulandi.
+2025-02-24 18:22:27,181 - root - INFO - Hamma foydalanuvchilarga bot ishga tushgani haqida xabar yuborildi.
+2025-02-24 18:22:27,181 - aiogram.dispatcher - INFO - Start polling
+2025-02-24 18:22:27,297 - aiogram.dispatcher - INFO - Run polling for bot @SendMessage7Bot id=8139825196 - 'SendMessage'
+2025-02-24 18:22:48,258 - aiogram.event - INFO - Update id=706187777 is handled. Duration 483 ms by bot id=8139825196
+2025-02-24 18:23:05,882 - aiogram.event - INFO - Update id=706187778 is handled. Duration 500 ms by bot id=8139825196
+2025-02-24 18:23:08,259 - aiogram.event - INFO - Update id=706187779 is not handled. Duration 0 ms by bot id=8139825196
+2025-02-24 18:23:13,160 - aiogram.event - INFO - Update id=706187780 is handled. Duration 171 ms by bot id=8139825196
+2025-02-24 18:23:21,915 - aiogram.event - INFO - Update id=706187781 is handled. Duration 125 ms by bot id=8139825196
+2025-02-24 18:23:26,038 - aiogram.event - INFO - Update id=706187782 is handled. Duration 187 ms by bot id=8139825196
+2025-02-24 18:23:27,376 - aiogram.event - INFO - Update id=706187783 is handled. Duration 233 ms by bot id=8139825196
