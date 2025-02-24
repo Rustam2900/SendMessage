@@ -1074,3 +1074,8 @@ django.core.exceptions.SynchronousOnlyOperation: You cannot call this from an as
 2025-02-24 21:02:36,228 - aiogram.event - INFO - Update id=706187909 is handled. Duration 156 ms by bot id=8139825196
 2025-02-24 21:02:37,080 - aiogram.event - INFO - Update id=706187910 is handled. Duration 139 ms by bot id=8139825196
 2025-02-24 21:02:40,815 - aiogram.event - INFO - Update id=706187911 is handled. Duration 250 ms by bot id=8139825196
+2025-02-24 21:29:13,210 - aiogram.dispatcher - INFO - Polling stopped
+2025-02-24 21:29:13,745 - root - INFO - Hamma foydalanuvchilarga bot ishdan to'xtagani haqida xabar yuborildi.
+2025-02-24 21:29:13,910 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 1] [SSL: APPLICATION_DATA_AFTER_CLOSE_NOTIFY] application data after close notify (_ssl.c:2706)
+2025-02-24 21:29:13,913 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8139825196)
+2025-02-24 21:29:14,018 - aiogram.dispatcher - INFO - Polling stopped for bot @SendMessage7Bot id=8139825196 - 'SendMessage'
