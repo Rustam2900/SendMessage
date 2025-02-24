@@ -1079,3 +1079,30 @@ django.core.exceptions.SynchronousOnlyOperation: You cannot call this from an as
 2025-02-24 21:29:13,910 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 1] [SSL: APPLICATION_DATA_AFTER_CLOSE_NOTIFY] application data after close notify (_ssl.c:2706)
 2025-02-24 21:29:13,913 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8139825196)
 2025-02-24 21:29:14,018 - aiogram.dispatcher - INFO - Polling stopped for bot @SendMessage7Bot id=8139825196 - 'SendMessage'
+2025-02-24 21:29:20,459 - message.management.commands.run_bot - INFO - Buyruqlar o'rnatildi.
+2025-02-24 21:29:20,459 - message.management.commands.run_bot - INFO - Router ulandi.
+2025-02-24 21:29:20,678 - root - INFO - Hamma foydalanuvchilarga bot ishga tushgani haqida xabar yuborildi.
+2025-02-24 21:29:20,679 - aiogram.dispatcher - INFO - Start polling
+2025-02-24 21:29:20,839 - aiogram.dispatcher - INFO - Run polling for bot @SendMessage7Bot id=8139825196 - 'SendMessage'
+2025-02-24 21:29:45,522 - aiogram.event - INFO - Update id=706187912 is handled. Duration 531 ms by bot id=8139825196
+2025-02-24 21:33:23,363 - aiogram.event - INFO - Update id=706187913 is handled. Duration 375 ms by bot id=8139825196
+2025-02-24 21:36:27,739 - aiogram.event - INFO - Update id=706187914 is handled. Duration 453 ms by bot id=8139825196
+2025-02-24 21:36:30,567 - aiogram.event - INFO - Update id=706187915 is handled. Duration 218 ms by bot id=8139825196
+2025-02-24 21:36:34,707 - aiogram.event - INFO - Update id=706187916 is handled. Duration 186 ms by bot id=8139825196
+2025-02-24 21:36:41,064 - aiogram.event - INFO - Update id=706187917 is handled. Duration 265 ms by bot id=8139825196
+2025-02-24 21:36:47,550 - aiogram.event - INFO - Update id=706187918 is handled. Duration 328 ms by bot id=8139825196
+2025-02-24 21:36:51,172 - aiogram.event - INFO - Update id=706187919 is handled. Duration 141 ms by bot id=8139825196
+2025-02-24 21:36:54,758 - aiogram.event - INFO - Update id=706187920 is handled. Duration 187 ms by bot id=8139825196
+2025-02-24 21:36:59,564 - aiogram.event - INFO - Update id=706187921 is handled. Duration 156 ms by bot id=8139825196
+2025-02-24 21:37:03,532 - aiogram.event - INFO - Update id=706187922 is handled. Duration 171 ms by bot id=8139825196
+2025-02-24 21:37:07,824 - aiogram.event - INFO - Update id=706187923 is handled. Duration 421 ms by bot id=8139825196
+2025-02-24 21:37:10,694 - aiogram.event - INFO - Update id=706187924 is handled. Duration 140 ms by bot id=8139825196
+2025-02-24 21:37:49,503 - aiogram.event - INFO - Update id=706187925 is handled. Duration 389 ms by bot id=8139825196
+2025-02-24 21:37:54,792 - aiogram.event - INFO - Update id=706187926 is handled. Duration 156 ms by bot id=8139825196
+2025-02-24 21:37:58,114 - aiogram.event - INFO - Update id=706187927 is handled. Duration 141 ms by bot id=8139825196
+2025-02-24 21:38:02,269 - aiogram.event - INFO - Update id=706187928 is handled. Duration 172 ms by bot id=8139825196
+2025-02-24 21:38:04,100 - aiogram.event - INFO - Update id=706187929 is handled. Duration 296 ms by bot id=8139825196
+2025-02-24 21:38:12,739 - aiogram.event - INFO - Update id=706187930 is handled. Duration 312 ms by bot id=8139825196
+2025-02-24 21:46:58,019 - aiogram.dispatcher - INFO - Polling stopped
+2025-02-24 21:46:58,512 - root - INFO - Hamma foydalanuvchilarga bot ishdan to'xtagani haqida xabar yuborildi.
+2025-02-24 21:46:58,792 - aiogram.dispatcher - INFO - Polling stopped for bot @SendMessage7Bot id=8139825196 - 'SendMessage'
