@@ -172,7 +172,6 @@ async def start_post(message: Message, state: FSMContext):
     await message.answer("Post sarlavhasini kiriting yoki o'tkazib yuboring:", reply_markup=skip_keyboard)
 
 
-# Title olish
 @router.message(PostState.title)
 async def get_title(message: Message, state: FSMContext):
     if message.text != "O‘tkazib yuborish":
@@ -181,7 +180,6 @@ async def get_title(message: Message, state: FSMContext):
     await message.answer("Post matnini kiriting:")
 
 
-# Message olish
 @router.message(PostState.message)
 async def get_message(message: Message, state: FSMContext):
     await state.update_data(message=message.text)
@@ -189,7 +187,6 @@ async def get_message(message: Message, state: FSMContext):
     await message.answer("Video URL kiriting yoki o'tkazib yuboring:", reply_markup=skip_keyboard)
 
 
-# Video URL olish
 @router.message(PostState.video_url)
 async def get_video_url(message: Message, state: FSMContext):
     if message.text != "O‘tkazib yuborish":
@@ -198,7 +195,6 @@ async def get_video_url(message: Message, state: FSMContext):
     await message.answer("Rasm URL kiriting yoki o'tkazib yuboring:", reply_markup=skip_keyboard)
 
 
-# Image URL olish
 @router.message(PostState.image_url)
 async def get_image_url(message: Message, state: FSMContext):
     if message.text != "O‘tkazib yuborish":
@@ -227,7 +223,6 @@ async def get_image_url(message: Message, state: FSMContext):
     await message.answer(post_preview, parse_mode="Markdown", reply_markup=confirm_keyboard)
 
 
-# Tasdiqlash va postni yuborish
 @router.message(PostState.confirm)
 async def confirm_post(message: Message, state: FSMContext):
     if message.text == "Ha, yuborish":
@@ -237,7 +232,6 @@ async def confirm_post(message: Message, state: FSMContext):
         video_url = data.get("video_url", "")
         image_url = data.get("image_url", "")
 
-        # Django ORM orqali post yaratish
         post = await sync_to_async(Post.objects.create)(
             title=title,
             message=message_text,
@@ -245,10 +239,8 @@ async def confirm_post(message: Message, state: FSMContext):
             image_url=image_url
         )
 
-        # Faol kanallarni bazadan olish
         active_channels = await sync_to_async(list)(Channel.objects.filter(active=True))
 
-        # Xabarni har bir kanalga yuborish
         for channel in active_channels:
             try:
                 if video_url:
@@ -269,7 +261,6 @@ async def confirm_post(message: Message, state: FSMContext):
                         text=message_text
                     )
 
-                # Post qaysi kanallarga yuborilganini bazaga saqlash
                 await sync_to_async(post.channels_sent.add)(channel)
                 post.sent_count += 1
                 await sync_to_async(post.save)()
