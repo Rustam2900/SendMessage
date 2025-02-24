@@ -1,8 +1,8 @@
 from aiogram import Router
 
-from bot.headers.handlers import router as handlers_router
+from message.headers.handlers import router as handlers_router
 
-from bot.headers.AdminBot import router as admin_router
+from message.headers.AdminBot import router as admin_router
 
 router = Router()
 

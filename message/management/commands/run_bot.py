@@ -6,7 +6,7 @@ from django.core.management import BaseCommand
 
 from message.headers import router
 from message.management.commands.commands import commands
-from message.models import CustomUser
+from message.models import BotAdmin
 
 logging.basicConfig(
     level=logging.INFO,
@@ -23,7 +23,7 @@ logger = logging.getLogger(__name__)
 @sync_to_async
 def get_all_user_ids():
     """Faqat telegram_id mavjud bo'lgan foydalanuvchilarni olish."""
-    return list(CustomUser.objects.exclude(telegram_id=None).values_list("telegram_id", flat=True))
+    return list(BotAdmin.objects.exclude(telegram_id=None).values_list("telegram_id", flat=True))
 
 
 async def notify_users(bot: Bot, message: str):
