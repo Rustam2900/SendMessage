@@ -525,3 +525,29 @@ TypeError: Channel() got unexpected keyword arguments: 'telegram_id'
 2025-02-24 20:19:29,401 - aiogram.dispatcher - INFO - Polling stopped
 2025-02-24 20:19:29,838 - root - INFO - Hamma foydalanuvchilarga bot ishdan to'xtagani haqida xabar yuborildi.
 2025-02-24 20:19:30,115 - aiogram.dispatcher - INFO - Polling stopped for bot @SendMessage7Bot id=8139825196 - 'SendMessage'
+2025-02-24 20:19:35,195 - message.management.commands.run_bot - INFO - Buyruqlar o'rnatildi.
+2025-02-24 20:19:35,197 - message.management.commands.run_bot - INFO - Router ulandi.
+2025-02-24 20:19:35,494 - root - INFO - Hamma foydalanuvchilarga bot ishga tushgani haqida xabar yuborildi.
+2025-02-24 20:19:35,494 - aiogram.dispatcher - INFO - Start polling
+2025-02-24 20:19:35,601 - aiogram.dispatcher - INFO - Run polling for bot @SendMessage7Bot id=8139825196 - 'SendMessage'
+2025-02-24 20:19:39,772 - aiogram.event - INFO - Update id=706187832 is handled. Duration 391 ms by bot id=8139825196
+2025-02-24 20:19:41,526 - aiogram.event - INFO - Update id=706187833 is handled. Duration 125 ms by bot id=8139825196
+2025-02-24 20:19:44,024 - aiogram.event - INFO - Update id=706187834 is handled. Duration 313 ms by bot id=8139825196
+2025-02-24 20:19:47,318 - aiogram.event - INFO - Update id=706187835 is handled. Duration 202 ms by bot id=8139825196
+2025-02-24 20:19:51,664 - aiogram.event - INFO - Update id=706187836 is handled. Duration 156 ms by bot id=8139825196
+2025-02-24 20:19:59,630 - aiogram.event - INFO - Update id=706187837 is handled. Duration 125 ms by bot id=8139825196
+2025-02-24 20:20:03,209 - aiogram.event - INFO - Update id=706187838 is handled. Duration 139 ms by bot id=8139825196
+2025-02-24 20:20:07,805 - aiogram.event - INFO - Update id=706187839 is handled. Duration 359 ms by bot id=8139825196
+2025-02-24 20:21:43,322 - aiogram.event - INFO - Update id=706187840 is handled. Duration 360 ms by bot id=8139825196
+2025-02-24 20:21:47,098 - aiogram.event - INFO - Update id=706187841 is handled. Duration 141 ms by bot id=8139825196
+2025-02-24 20:21:50,567 - aiogram.event - INFO - Update id=706187842 is handled. Duration 140 ms by bot id=8139825196
+2025-02-24 20:23:23,939 - aiogram.event - INFO - Update id=706187843 is handled. Duration 343 ms by bot id=8139825196
+2025-02-24 20:23:28,436 - aiogram.event - INFO - Update id=706187844 is handled. Duration 141 ms by bot id=8139825196
+2025-02-24 20:23:29,602 - aiogram.event - INFO - Update id=706187845 is handled. Duration 125 ms by bot id=8139825196
+2025-02-24 20:23:32,112 - aiogram.event - INFO - Update id=706187846 is handled. Duration 250 ms by bot id=8139825196
+2025-02-24 20:23:36,151 - aiogram.event - INFO - Update id=706187847 is handled. Duration 125 ms by bot id=8139825196
+2025-02-24 20:23:39,829 - aiogram.event - INFO - Update id=706187848 is handled. Duration 155 ms by bot id=8139825196
+2025-02-24 20:23:52,647 - aiogram.event - INFO - Update id=706187849 is handled. Duration 125 ms by bot id=8139825196
+2025-02-24 20:23:54,813 - aiogram.event - INFO - Update id=706187850 is handled. Duration 265 ms by bot id=8139825196
+2025-02-24 20:24:03,089 - aiogram.event - INFO - Update id=706187851 is handled. Duration 202 ms by bot id=8139825196
+2025-02-24 20:24:06,413 - aiogram.event - INFO - Update id=706187852 is handled. Duration 139 ms by bot id=8139825196
