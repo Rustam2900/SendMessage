@@ -15,13 +15,16 @@ from message.models import BotAdmin, Channel, Post
 
 from django.conf import settings
 from aiogram.client.default import DefaultBotProperties
-from decimal import Decimal
 
 router = Router()
 bot = Bot(token=settings.BOT_TOKEN, default=DefaultBotProperties(parse_mode=ParseMode.HTML))
 CHANNEL_ID = -1002304690046
 ADMIN_ID = 5189183957
 logger = logging.getLogger(__name__)
+
+
+def is_admin(user_id):
+    return BotAdmin.objects.filter(user_id=user_id).exists()
 
 
 @router.message(CommandStart())
@@ -40,5 +43,3 @@ async def welcome(message: Message):
     else:
 
         await message.answer(text='salom', parse_mode="HTML")
-
-
